@@ -111,7 +111,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #70b9b0;
+  background: #187A72;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -119,12 +119,12 @@ section {
 }
 .back-to-top i {
   font-size: 24px;
-  color: #fff;
+  color: #e6e6e6;
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #8bc6bf;
-  color: #fff;
+  background: #00A99D;
+  color: #4d4d4d;
 }
 .back-to-top.active {
   visibility: visible;
