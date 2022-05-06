@@ -104,7 +104,7 @@
               <div class="swiper-wrapper align-items-center">
                 <!-- START of 1 image -->
                 <div class="swiper-slide">
-                  <img src="img/camera.jpg" alt="">
+                  <img id="img-camera" src="img/camera.jpg" alt="">
                 </div>
                 <!-- END of 1 image -->
 
@@ -121,7 +121,8 @@
               <h3>Information</h3>
               <ul>
                 <!-- UPDATE all this information or delete unneeded sections-->
-                <li><strong>Last Update</strong>Unknown</li>
+                <li><strong>Last Update</strong>: Unknown</li>
+                <li>The image will automatically refresh every 5 to 10 seconds.</li>
               </ul>
             </div>
           </div>
@@ -154,6 +155,11 @@
 
   <!-- Template Main JS File -->
   <script src="/assets/js/main.js"></script>
+
+  <!-- Camera Updater -->
+  <script src="https://www3.stefantodorovic.com/cameraviewer/update.js"> </script>
+  <script>getCamera('/img/camera.jpg');</script>
+
 
 </body>
 
