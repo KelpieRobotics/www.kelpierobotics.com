@@ -897,12 +897,12 @@ section {
 }
 
 /* sponsorship */
-#footer .sponsorship {
+.sponsorship {
   margin: auto;
   width: 90%;
 }
 
-#footer .sponsor{
+.sponsor{
   text-align: center;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 30px 20px;
@@ -910,22 +910,22 @@ section {
   border-radius: 10px;
 }
 
-#footer .sponsor:hover{
+.sponsor:hover{
   background: #187A72;
 }
 
-#footer .sponsor img {
+.sponsor img {
   filter: grayscale(100%);
   max-width: 60%;
   margin: 0 0 30px 0;
 }
-#footer .sponsor h4 {
+.sponsor h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
   color: #E6E6E6;
 }
-#footer .sponsor span {
+.sponsor span {
   font-style: italic;
   display: block;
   font-size: 13px;
@@ -951,5 +951,7 @@ section {
 #footer .reflinks .ref a {
   color: #00A99D;
 }
-
+hr.archive-break {
+  border: 2px solid #00A99D;
+}
 
