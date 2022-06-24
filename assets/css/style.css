@@ -714,7 +714,7 @@ section {
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 30px 20px;
   background: #fff;
-  aspect-ratio: 2 / 3;
+  aspect-ratio: 8 / 9;
 
 }
 .team .member img {
@@ -912,7 +912,7 @@ section {
   padding: 30px 20px;
   background: #00A99D;
   border-radius: 10px;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 10 / 7;
 }
 
 .sponsor:hover{
