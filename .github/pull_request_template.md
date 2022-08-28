@@ -1,4 +1,4 @@
-## Kelpie Robotics - Topside Controls
+## Kelpie Robotics - Website
 
 [feature/bugfix/test/docs]: description of changes made to code. 
 
